@@ -48,7 +48,7 @@ P{
   justify-content: center;
   align-items: center;
   margin-top: 5rem;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .key{
@@ -58,8 +58,8 @@ P{
   justify-content: center;
   font-size: 1.3rem;
   background-color: white;
-  height: 6rem;
-  width: 6rem;
+  height: 5.5rem;
+  width: 5.5rem;
   border-radius: 20px;
   border: solid 7px grey;
   padding: 1rem;
