@@ -41,7 +41,7 @@ P{
 
 .keys{
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   width: 100%;
   /* background-color: white; */
   color: black;
@@ -110,5 +110,8 @@ span{
   75%{opacity: 50%;}
   100%{opacity: 50%;}
 }
+
+
+
 
 
