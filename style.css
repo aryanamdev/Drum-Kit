@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@300;500;700&family=Inter:wght@100;200;300;400;500;600;700;900&family=Kanit:wght@600&family=Lato:wght@300;400;700;900&family=Merriweather:wght@300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&family=Prompt:wght@300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Righteous&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800&display=swap');
+
+
+*,
+*::after,
+*::before
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body,html{
+  font-family: 'Raleway';
+  width: 100%;
+  background-color: #151515;
+}
+
+.header{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+  margin-top: 4REM;
+}
+
+h1{
+  color: #e86262;
+  font-size: 4REM;
+  /* margin-bottom: 2REM; */
+}
+
+P{
+  color: white;
+  margin-top: 1rem;
+
+}
+
+.keys{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  /* background-color: white; */
+  color: black;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  gap: 2rem;
+}
+
+.key{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  background-color: white;
+  height: 6rem;
+  width: 6rem;
+  border-radius: 20px;
+  border: solid 7px grey;
+  padding: 1rem;
+}
+
+/* .key:hover{
+  transform: scale(1.1);
+  border-color: #e86262;
+  box-shadow: #e86262 0 0 30px;
+  cursor: pointer;
+} */
+
+
+kbd{
+  color: #e86262;
+  font-size: 1.5rem;
+}
+span{
+  font-size: .9rem;
+  margin-top: 3px;
+}
+
+.playing{
+  transform: scale(1.1);
+  border-color: #e86262;
+  box-shadow: #e86262 0 0 30px;
+  transition: 0.15s all ease;
+}
+
+.ins{
+  font-size: .8rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  opacity: 50%;
+  animation: 4s infinite fadeout ease-out;
+}
+
+.ins::before,
+.ins::after{
+  content: '*';
+  color: white;
+}
+
+@keyframes fadeout{
+  25%{opacity: 50%;}
+  50%{opacity: 80%;}
+  75%{opacity: 50%;}
+  100%{opacity: 50%;}
+}
+
+
